@@ -1,5 +1,8 @@
 show: true
-content: 天冷加衣
+content: 天晴防晒
 color: black
-icon: snowflake
-link: false
+icon: sun
+#icon: cloud
+#icon: rain
+#icon: snowflake
+link: https://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7%E5%A4%A9%E6%B0%94&ie=utf-8

@@ -1,3 +1,78 @@
+- id: weibo
+  name: 微博
+  url: http://s.weibo.com/weibo/
+  shortcut: 微博
+  icon: weibo red
+  style: basic
+
+- id: taobao
+  name: 淘宝
+  url: https://s.taobao.com/search?q=
+  shortcut: 淘宝
+  style: basic
+
+- id: book
+  name: 书籍
+  url: http://baidu.com/s?wd=
+  suffix: " site:vdisk.weibo.com&ie=utf-8"
+  shortcut: 书籍
+  style: basic
+
+- id: douban
+  name: 豆瓣
+  url: http://www.douban.com/search?q=
+  shortcut: 豆瓣
+  style: basic
+
+- id: fkdy
+  name: 影视
+  url: http://ifkdy.com/?q=
+  shortcut: 影视
+  style: basic
+
+- id: jd
+  name: 京东
+  url: http://search.jd.com/Search?keyword=
+  suffix: "&enc=utf-8"
+  shortcut: 京东
+  style: basic
+
+- id: zhihu
+  name: 知乎
+  url: http://www.zhihu.com/search?q=
+  shortcut: 知乎
+  style: basic
+
+- id: sougouzhihu
+  name: 搜狗知乎
+  url: http://zhihu.sogou.com/zhihu?query=
+  shortcut: 搜狗知乎
+  style: basic
+
+- id: mobilesougouzhihu
+  name: 手机知乎
+  url: http://zhihu.sogou.com/zhihuwap?query=
+  shortcut: 手机知乎
+  style: basic
+
+- id: bing
+  name: 必应
+  url: http://www.bing.com/search?q=
+  suffix: "&intlF=0"
+  shortcut: 必应
+  style: basic
+
+- id: wechat
+  name: 微信公众号
+  url: http://weixin.sogou.com/weixin?query=
+
+- id: v2ex
+  name: v2ex
+  url: http://www.bing.com/search?q=
+  suffix: " site:v2ex.com&intlF=0"
+  shortcut: V2EX
+  style: basic
+
 - id: baidu
   name: 百度
   url: http://baidu.com/s?wd=
@@ -13,36 +88,12 @@
   icon: google red
   style: basic
 
-- id: baidumap
-  name: 百度地图
-  url: http://api.map.baidu.com/geocoder?address=
-  suffix: "&output=html"
-  shortcut: 地图
-  icon: map green
-  style: basic
-
 - id: wikipedia
   name: 维基百科
   url: https://www.wikipedia.org/wiki/
   shortcut: 维基
   # icon: wikipedia black
   style: basic
-
-- id: ieeexplore
-  name: IEEE Xplore
-  url: http://ieeexplore.ieee.org/search/searchresult.jsp?queryText=
-
-- id: baiduxueshu
-  name: 百度学术
-  url: http://xueshu.baidu.com/s?wd=
-
-- id: googlescholar
-  name: 谷歌学术
-  url: http://scholar.google.com/scholar?q=
-
-- id: etymonline
-  name: Etymonline
-  url: http://www.etymonline.com/index.php?search=
 
 - id: mw
   name: Merriam-Webster
@@ -52,67 +103,19 @@
   name: GitHub
   url: http://github.com/search?q=
 
-- id: wechat
-  name: 微信公众号
-  url: http://weixin.sogou.com/weixin?query=
-
 - id: minapp
   name: 微信小程序
   url: https://minapp.com/miniapp/search/?query=
-
-- id: weibo
-  name: 微博
-  url: http://s.weibo.com/weibo/
-  shortcut: 微博
-  # icon: weibo red
-  style: basic
-
-- id: zhihu
-  name: 知乎
-  url: http://www.zhihu.com/search?q=
-  shortcut: 知乎
-  style: basic
-
-- id: douban
-  name: 豆瓣
-  url: http://www.douban.com/search?q=
-  shortcut: 豆瓣
-  style: basic
-
-- id: jd
-  name: 京东
-  url: http://search.jd.com/Search?keyword=
-  suffix: "&enc=utf-8"
-  shortcut: 京东
-  style: basic
-
-- id: taobao
-  name: 淘宝
-  url: https://s.taobao.com/search?q=
-  shortcut: 淘宝
-  style: basic
-
-- id: xiami
-  name: 虾米
-  url: http://www.xiami.com/search?key=
-  shortcut: 虾米
-  style: basic
-
-- id: fkdy
-  name: 影视
-  url: http://ifkdy.com/?q=
-  shortcut: 影视
-  style: basic
 
 - id: panci
   name: 胖次
   url: http://www.panc.cc/s/
   suffix: "/td_0"
 
-- id: byr
-  name: 北邮人论坛
-  url: http://search.icybee.cn/bbs/?key=
-
-- id: byrbt
-  name: 北邮人BT
-  url: http://bt.byr.cn/torrents.php?search=
+- id: baidumap
+  name: 百度地图
+  url: http://api.map.baidu.com/geocoder?address=
+  suffix: "&output=html"
+  shortcut: 地图
+  icon: map green
+  style: basic

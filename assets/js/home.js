@@ -22,18 +22,18 @@ function updateGitHub(repository) {
     $('#github-watch img').attr('src', 'https://img.shields.io/github/watchers/' + repository + '.svg?style=social&label=Watch');
     $('#github-star img').attr('src', 'https://img.shields.io/github/stars/' + repository + '.svg?style=social&label=Star');
     $('#github-fork img').attr('src', 'https://img.shields.io/github/forks/' + repository + '.svg?style=social&label=Fork');
-};
-var repository = $('meta[name=repository]').attr('content');
-updateGitHub(repository);
-setInterval(function () {
-    updateGitHub(repository);
-}, 15000);
+}
+// var repository = $('meta[name=repository]').attr('content');
+// updateGitHub(repository);
+// setInterval(function () {
+//    updateGitHub(repository);
+// }, 15000);
 
 // version
 moment.locale('zh-cn');
 function updateVersion(timestamp) {
     $('#version img').attr('src', 'https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E4%BA%8E-' + encodeURIComponent(moment(timestamp).fromNow()) + '-brightgreen.svg');
-};
+}
 var updateAt = $('meta[name=updated_at]').attr('content');
 updateVersion(updateAt);
 setInterval(function () {
@@ -70,10 +70,10 @@ function updateVisit(updateProgressBar) {
         };
     });
 };
-updateVisit(true);
-setInterval(function () {
-    updateVisit(false);
-}, 15000);
+// updateVisit(true);
+// setInterval(function () {
+//     updateVisit(false);
+// }, 15000);
 
 // search
 $('#search-services').dropdown();
